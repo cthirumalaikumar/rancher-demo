@@ -1,0 +1,7 @@
+# ps-aircraftd/templates/configmap.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+   name: nginx-configmap
+   data:
+     {{- (.Files.Glob "static/*").AsConfig | nindent 2 }}
