@@ -5,4 +5,4 @@ metadata:
   #data: { { - (.Files.Glob "static/*").AsConfig | nindent 2 } }
 data:
   index.html: |
-    <h1>What the Helm!!!</h1>               
+    <h1>Thanks Nayarthi!!!</h1>               
